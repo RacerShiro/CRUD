@@ -9,7 +9,7 @@ if($_POST){
     && isset($_POST['title']) && !empty($_POST['title'])
     && isset($_POST['date']) && !empty($_POST['date'])
     && isset($_POST['author_id']) && !empty($_POST['author_id'])){
-        // On inclut la connexion à la base
+        // On inclut la connexion à la base.
         require_once('connect.php');
 
         // On nettoie les données envoyées
